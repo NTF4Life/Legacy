@@ -1,0 +1,64 @@
+<!doctype html>
+<html data-ng-app="tagIt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>TagIt</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/clouds.css">
+		<link rel="stylesheet" type="text/css" href="css/light.css">
+        
+		
+	 
+	</head>
+	<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			
+		<a class="navbar-brand" href="#">l1k3</a>
+			<!-- Mobile Navigation-->
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse" >
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class = "nav navbar-nav navbar-right ">
+					<li><a href="#/home">Home</a></li>
+	                <li><a href="#/projects">Projects</a></li>
+	                <li><a href="#/gallery">Gallery</a></li>
+	                <li><a href="#/music">Music</a></li>
+					<li><a href="#/about">About</a></li>
+			</ul>
+			
+			<div class="navbar-inner pull-right">
+        <a class="brand" href="index.html"> <img src="images/logomin.png"></a>
+   </div>
+		</div>
+
+	</div>
+		</nav>
+	</header>
+		
+
+
+
+	
+    <div ng-view class="view-animate"></div>
+
+
+		<script src="js/angular.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/route.js"></script>
+		<script src="https://code.angularjs.org/1.2.9/angular-animate.js"></script>
+        <script src="https://code.angularjs.org/1.2.9/angular-touch.js"></script>
+		<script src="app/app.js"></script>
+		<script src="app/controllers/usersView.js"></script>
+		<script src="app/controllers/artCtrl.js"></script>
+		<script src="js/lightbox.js"></script>
+
+	</body>
+</html>
